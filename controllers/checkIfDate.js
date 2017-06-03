@@ -10,5 +10,7 @@ module.exports = function(str){
         return {"Unix": moment(+str).format("X"), "Natural": moment(+str).format("MMMM D, YYYY")};
     }
     else
-        return false;
+    {
+        return {"Unix": null, "Natural": null};
+    }
 };
