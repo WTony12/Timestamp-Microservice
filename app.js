@@ -8,4 +8,4 @@ app.use(express.static(__dirname + '/public'));
 //Handle routing
 router(app);
 //Run server
-server(app, process.env.PORT);
+server(app, process.env.PORT || 5000);
