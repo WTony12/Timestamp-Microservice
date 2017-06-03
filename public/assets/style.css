@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body{
+    background-color: #003366;
+}
+h1, h3, p, li, h4{
+    font-family: Cinzel;
+    color: silver;
+}
+#box{
+    background-color: black;
+}
